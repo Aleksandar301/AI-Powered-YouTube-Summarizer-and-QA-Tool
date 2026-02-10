@@ -70,7 +70,7 @@ def main():
     llm = get_llm("llama2")
 
     while True:
-        url = input("\n📎 Enter YouTube URL (or 'exit'): ").strip()
+        url = input("\n Enter YouTube URL (or 'exit'): ").strip()
 
         if url.lower() == "exit":
             break
